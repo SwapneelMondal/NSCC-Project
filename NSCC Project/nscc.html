@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    body {
+      background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw0QEA0NDQ8PDQ0NEA8NDQ8NDRAPFREWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODM4NygtLisBCgoKDg0NFQ8PFSsdFR0tLS0rLS0rLS0tKy0tLS0tNystLSstLTctKzctKystLS0rKy0rLTcrKzctLSsrLS03Lf/AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACAQAQEAAwACAwEBAQAAAAAAAAABAhExIXFBUWEDEpH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIEA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A9dkUHg5gABoiUACApaVkUb/nhvzUwx35dVkJG4u2NmWWmm9ayy042781O+aqWs26lpIFRCmlkQEKrIFZyplUk0yya0QkADSgIsiyAoXwqSKJIlaqXwiM6E1VEbAVoWAABAWBWRRccdmM26QhIsVC1ppbXPq9EQqKlEKSEgAKzQSplTKoiVIshIVEBdIoLIsiioBICSLSlBKmjRllpARz0ozrqsIK0CLIBFRLd+gO+lk2kdIAqCtLaz0UAEtELSQigAzaBWcquVZk+UQkJNkm1tQKAoLIuMUEF4mlVIoiBxNLEyuhEyumBURBREdECNNKDO9+gL59LIkbgDTKqqpCKAIWgWkiyAoDNoFqWlumZ9oyftJN+jvpQKSGlBGsYTFqqqAAQoUETQZZaQTLLTmojICyAmla2gKCW79Kpbv0CxEWKiq0LIkaUBC0C0hIoAM2ilqWlqIyh30dUC0goDWMSRpVKCTyAKgCCZXQGWWnMVlkBZAJFUVQAGbdoNREFiKqiyEjQoiLtQtJCRQAZtAtS1aygJ30dUQJCKA1jDGNVVkEE76FOqAFTQmWWhDK6czvRlkBrHEDHFVFVCqgpr9RQRmLEWALIRoFZpRVKAgqolqhaDKAh1RAAFXHExxbWRZBFZ76FO+lABOnTK6EMstOXenfNErKoN44ophiqjQn4cXiexUFYzy+IiLc4OSpqa2sI0qkKgKtQUAEqioJ1EOoKiACqNY4mOLaxZBBO+hTvpQATp30ZXQhllpy75pfKpaiKNY4oGOLWwaUOHD9BPYMZ5fCIZ5fDAMsgv8AmgOsQtRppSJFBQS0C0ROgdQqogqKqjWOO0xjoLIIJ1VO+lAQTp30ZXQGV05XyW7VLUBG8MUDDFsRpQ4cAEVjPP4giZ5sAyyNYxIsBdiXMF1oRVVRDYLtBNgJS0RBSADWM2YzbarIKidVTqgAnfR30W6At05W7LdiaioN4Y/KC4YtWlqNKHF4n6AEY/pn8ToU/pn8OYMsCxBBUyqWrjAZ0N+foMGxIWtNLagUQtZ2CAsAFXGbMZttYqiJbtVL5aRQGd79Fu0t0DVunK3ZaMs6A3hj9imGLdpajSi8E/aB+0Gc8/gNM8/pyBlgAQEtLVxx+QMcWpN+lk/4xnl9Kq3+k9q5iamt7WAqlqWgICgouM2AR0AaaS34UAVm3YFEt0xbsErNAEG8Mflu0Gmk/F4AJ7ABn+mevDkDNYoAgJaAi44tyb9IK1Gc8vhkEZX/ACoK1j//2Q==');
+    }
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Swapneel Mondal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Swapneel Mondal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <script src="nscc.js"> </script>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://media.discordapp.net/attachments/1127192633064816670/1284891608940155104/IMG-20240807-WA0155.jpg?ex=66e8480f&is=66e6f68f&hm=f3aa17d05dd385f8a0eaf93ab6d7a4b5b776445a6864ebf593fff5e12d969f9c&=&format=webp&width=445&height=593" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Swapneel Mondal</h1>
+        <p class="section__text__p2">Passionate Coder</p>
+        <div class="btn-container">
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://freelogopng.com/images/all_img/1656994981linkedin-icon-png.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/swapneel-mondal-911233247/'"
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SwapneelMondal'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://cdn.discordapp.com/attachments/1127192633064816670/1284908418775126067/IMG-20240915-WA0040.jpg?ex=66e857b7&is=66e70637&hm=1821c0fd474d3b9a8ac34ec0725d6ca715733b29086513bbb5adcf0b061d0f59&"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://img.freepik.com/premium-vector/black-award-medal-icon-white-background_322958-3255.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 Month <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/044/270/348/small/solid-black-icon-for-educational-cost-vector.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Scored 96.4 % in 10th Standard<br>
+                High School Graduate
+                 
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             I am Swapneel Mondal,currently pursuing a Btech Degree in CSE w/s in Computer Networking at SRM University Kattankulathur. I like playing cricket,football,tennis and I am a passionate Munner and have taken part in and organised many MUN's,I was also a member of the student council in 9th and 10th standard and ranked in the top 6% in MHTCET,
+            I am passionate about front end web Development,and am currently pursuing multiple courses to enhance my front end web developement skills, in the future I hope to explore libraries like node and react and I aspire to become a full stack web developer.          </p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/000/638/781/small/illust58-6463-01.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/000/638/781/small/illust58-6463-01.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/000/638/781/small/illust58-6463-01.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">swapneelmondal587@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://freelogopng.com/images/all_img/1656994981linkedin-icon-png.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/swapneel-mondal-911233247/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
